@@ -1,0 +1,162 @@
+<!DOCTYPE HTML>
+<html> 
+    <head>
+        <title>Track</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+        <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+        <!-- Google Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Montserrat&display=swap" rel="stylesheet">
+
+        <link rel='stylesheet' type='text/css' href='CSS/track_styles.css'>
+        <script language='Javascript' type='text/javascript' src='Javascript/functionality.js'></script> 
+
+        <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/solid.js" integrity="sha384-tzzSw1/Vo+0N5UhStP3bvwWPq+uvzCMfrN1fEFe+xBmv1C/AtVX5K0uZtmcHitFZ" crossorigin="anonymous"></script>
+        <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/fontawesome.js" integrity="sha384-6OIrr52G08NpOFSZdxxz1xdNSndlD4vdcf/q2myIUVO0VsqaGHJsB0RaBE01VTOY" crossorigin="anonymous"></script>
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    
+    <body>
+        <div class="wrapper">
+            <!-- Nav Sidebar  -->
+            <nav id="sidebar">
+                <div class="sidebar-header">
+                    <img class = "foot" src = "Images/Foot2.png">
+                </div>
+    
+                <ul class="list-unstyled components">
+                    <p id = "eng_nav">Navigation</p>
+                    <li id = "eng_hm"><a href="index.html">Home</a></li>
+                    <li id = "eng_ab"><a href="about.html">About</a></li>
+                    <li id = "eng_at"><a href="testimonials.html">Testimonials</a></li>
+                    <li id = "eng_ct"><a href="contact.html">Contact</a></li>
+
+                    <p id = "esp_nav">Navegación</p>
+                    <li id = "esp_hm"><a href="index.html">Hogar</a></li>
+                    <li id = "esp_ab"><a href="about.html">Sobre</a></li>
+                    <li id = "esp_ct"><a href="contact.html">Contacto</a></li>
+                </ul>
+    
+                <ul class="list-unstyled CTAs">
+                    
+                </ul>
+            </nav>
+    
+            <!-- Page -->
+            <div id="content" class = "main_body">
+    
+                <nav class="navbar navbar-expand-lg navbar-light bg-light" >
+                    <div class="container-fluid" >
+                        <button type="button" class="btn btn-primary btn-circle btn-md" id="sidebarCollapse"><i class="fas fa-align-left" style ="font-size: medium;"></i></button>
+                        <button type="button" class="btn btn-primary btn-md" id="translate">Español</button>
+                        <button type="button" class="btn btn-primary btn-md" id="translate_back">English</button>
+                    </div>
+                </nav>
+    
+                <div class="text-center jumbotron2">
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <div class = "jumbotron_text_bg">
+                        <h1 id = "eng_head" class="font-weight-bold text-center jumbotron_text">Coach O'Riley Private Training</h1> 
+                        <h2 id = "eng_sub" class="text-center jumbotron_subtext">Sprints, Hurdles & Jumps Specialist</h2>
+
+                        <h1 id = "esp_head" class="font-weight-bold text-center jumbotron_text">Coach O'Riley Entrenamiento Privado</h1> 
+                        <h2 id = "esp_sub" class="text-center jumbotron_subtext">Especialista de velocidad, vallas y salto</h2>
+                       
+                    </div>
+                    <br>
+                    <br>
+                    <br>
+                    <br> 
+                </div>
+                <br>
+                <br>
+                <img src = "Images/Coach.jpeg" class = "coach_img">
+                <br>
+                <br>
+                <h2 id= "eng_bio" class = "h2_3">Biography:</h2><br>
+                <h2 id= "esp_bio" class = "h2_3">Biografía:</h2><br>
+                <p id= "eng_pgh1"  class = "abt_pgh">&emsp;&emsp;I have coached high school and collegiate athletes for over twelve years. 
+                     This includes work with individual-event conference champions at the NCAA Division I level that have advanced to regional and national championships.  
+                     My high school performers have reached the highest ranks at the local and state levels.  
+                </p>
+                <p id= "esp_pgh1"  class = "abt_pgh">&emsp;&emsp; He entrenado atletas de nivel preparatoria y universitario por más de doce años.  
+                    Esto incluye tiempo entrenando campeones en pruebas individuales del nivel I NCAA.  
+                    Algunos avanzaron a campeonato regional y nacional. 
+                     Mis atletas de preparatoria (high school) han logrado el reconocimiento más alto al nivel local y del estado de Nueva York.
+
+                </p>
+                <div class="line"></div>
+                <h2 id= "eng_cred" class = "h2_3">Credentials/Experience:</h2><br>
+                <h2 id= "esp_cred" class = "h2_3">Credenciales y experiencia:</h2><br>
+                <p id= "eng_pgh3"  class = "p1">&emsp;&emsp;
+                    <div class = "row">
+                        <div class = "col-md-3"></div>
+                        <div class = "col-md- 5">
+                            <ul id = "eng_ul1" class = "ul1">
+                                <li>USATF Level 1 & 2 Certificates (National Council for Accreditation of Coaching Education)  </li>
+                                <li>USATF Level 2 Sports Science Certificate (biomechanics, physiology, skill acquisition, and training theory)</li>
+                                <li>USATF Adirondack Association, Associate Vice President (2004-2007) </li>
+                                <li>Assistant Coach - University at Albany, (NCAA Division I) Hurdles & Horizontal Jumps<br>
+                                    Helped to guide multiple-America East Conference indoor/outdoor champions (2003-2008)</li>
+                                <li>Head Coach – Valhalla High School (2014-present)<br>
+                                    Section I Class C team champions (2016-2018, 2021)<br>
+                                    Seven all-state (Division 2) performers in jumps, two all-federation (2016-2018)</li>
+                                <li>Presented horizontal jumps workshops at a NYSPHSAA statewide coaching clinic (2007)  </li>
+                                <li>High School Athletic Hall of Fame, Wilson Magnet High School, Rochester, NY (1995) </li>
+                                <li>Conference Champion, Long & Triple Jump, University at Albany (1997) </li>
+                                <li>Fluent in Spanish </li>
+                            </ul>
+                        </div>
+                        <div class = "col-md-3"></div>
+                    </div>
+               </p>
+
+               <p id= "esp_pgh3"  class = "p1">&emsp;&emsp;
+                <div class = "row">
+                    <div class = "col-md-3"></div>
+                    <div class = "col-md- 5">
+                        <ul id = "esp_ul1" class = "ul1">
+                            <li>Certificados del nivel 1 & 2 – Federación de Atletismo de Estados Unidos (USATF)  </li>
+                            <li>Certificado de Ciencias Deportivas - Federación de Atletismo de Estados Unidos (USATF) <br>
+                                (biomecánica, fisiología, adquisición de hablidades y teoría de entrenamiento)</li>
+                            <li>Vice Presidente Asociado, USATF Adirondack (2004-2007) </li>
+                            <li>Entrenador asistente, vallas y saltos horizontales, Universidad de Albany, Nueva York (2003-2008)<br>
+                                Entrené múltiples campeones individuales de la Conferencia America East (2003-2008)</li>
+                            <li>Director de Atletismo – Valhalla High School (2014-presente)<br>
+                                Campeones de equipo – Section I Class C (2016-2018, 2021)<br>
+                                He entrenado a siete campeones de salto al nivel “all-state” de Nueva York</li>
+                            <li>Presenté un taller de salto largo y triple en una clínica estatal de entrenadores de atletismo. </li>
+                            <li>Miembro del salón de fama deportivo, Wilson Magnet High School, Rochester, NY (1995)</li>
+                            <li>Campeón de conferencia, Salto largo y triple, Universidad de Albany, Nueva York (1997)</li>
+                            <li>Soy bilingüe (inglés e español) </li>
+                        </ul>
+                    </div>
+                    <div class = "col-md-3"></div>
+                </div>
+           </p>
+               
+    
+               <footer>
+                <br>
+                <br>
+            </footer>
+        </div>
+        </div>
+        
+
+    </body>
+    
+    </html>
