@@ -19,6 +19,7 @@ $(document).ready(
             $('#esp_ttl').hide();
 
             $('#esp_pgh1').hide();
+            $('#esp_pgh2').hide();
             $('#esp_pgh3').hide();
             $('#esp_ul1').hide();
 
@@ -65,6 +66,7 @@ $(document).ready(
             $('#eng_pgh2').hide();
             $('#eng_pgh3').hide();
             $('#esp_pgh1').show();
+            $('#esp_pgh2').show();
             $('#esp_pgh3').show();
             $('#esp_ul1').show();
             $('#eng_ul1').hide();
@@ -103,6 +105,7 @@ $(document).ready(
             $('#eng_pgh2').show();
             $('#eng_pgh3').show();
             $('#esp_pgh1').hide();
+            $('#esp_pgh2').hide();
             $('#esp_pgh3').hide();
             $('#esp_ul1').hide();
             $('#eng_ul1').show();
